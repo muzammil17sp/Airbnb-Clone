@@ -1,0 +1,26 @@
+@tailwind components;
+@layer components {
+  .button {
+    @apply px-4 py-2 border rounded-full  select-none	 cursor-pointer hover:shadow-lg active:scale-95 transition duration-100 ease-in-out active:bg-gray-100;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #edf2f7;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FD5861;
+    border-radius: 100vh;
+    border: 3px solid #edf2f7;
+  }
+  
+  /* Handle on hover */
+ 
+}
